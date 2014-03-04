@@ -1,6 +1,8 @@
-# esri require
+=======
+esri-require-js
+===============
 
-Using the AMD build of ArcGIS API for JavaScript in a RequireJS app
+Example of how to use modules from the Esri AMD build in a RequireJS app - WARNING: in development
 
 ## Getting Started
 
