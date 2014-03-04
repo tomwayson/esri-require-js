@@ -3,10 +3,23 @@
 <head>
   <meta charset="utf-8">
   <title>Using the AMD build of ArcGIS API for JavaScript in a RequireJS app</title>
+  <link rel="stylesheet" href="http://js.arcgis.com/3.8/js/esri/css/esri.css">
+  <style>
+    html, body, #map {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: #FFF;
+      overflow: hidden;
+      font-family: "Trebuchet MS";
+    }
+  </style>
   <script data-main="app/config" src="bower_components/requirejs/require.js"></script>
 </head>
 <body>
-  <h1>esri require running!</h1>
-  <div id="message"></div>
+  <div id="map"></div>
 </body>
 </html>
