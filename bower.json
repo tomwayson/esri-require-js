@@ -1,11 +1,11 @@
 {
   "name": "esri-require",
   "dependencies": {
-    "requirejs": "~2.1.5",
+    "requirejs": "2.1.8",
     "jquery": ">= 1.8.0",
     "qunit": "~1.11.0",
-    "dojo": "~1.9.3",
-    "dijit": "~1.9.3",
-    "dojox": "~1.9.3"
+    "dojo": "~1.9.1",
+    "dijit": "~1.9.1",
+    "dojox": "~1.9.1"
   }
 }
