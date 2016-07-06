@@ -2,6 +2,14 @@
 esri-require-js
 ===============
 
+[![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg)](http://github.com/badges/stability-badges)
+
+**DEPRECATED:**
+
+The experimental techniques in this repo have been deprecated. Instead see the instructions for loading the bower release of ArcGIS API for JavaScript with RequireJS:
+- [RequireJS and ArcGIS API for JavaScript 3.x](https://github.com/Esri/jsapi-resources/tree/master/3.x/bower/requirejs/src)
+- [RequireJS and ArcGIS API for JavaScript 4.x](https://github.com/Esri/jsapi-resources/tree/master/4.x/bower/requirejs/src)
+
 The purpose of this repository is to try and figure out if it makes sense to use RequireJS as a loader for an app that will reference modules from the ArcGIS API for JavaScript. 
 
 **WARNING:** The instructions below describe a way to get RqquireJS to load modules from the Esri AMD build. However, just because it *can* be done, does not mean that it *should* be done. There are several known issues:
